@@ -1,0 +1,14 @@
+body{
+  text-align: center;
+  background:#000022;
+  color: #555555
+}
+
+p{
+  text-align: center;
+  font-size: 18px;
+}
+
+em strong{
+  color: #BB1111;
+}
