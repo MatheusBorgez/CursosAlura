@@ -29,6 +29,10 @@ nav a{
   color: #000000
 }
 
+nav a:hover{
+  color: #C78C34;
+  text-decoration: underline;
+}
 
 .produtos ul{
   width: 940px;
@@ -37,6 +41,7 @@ nav a{
 }
 
 .produtos li{
+
   display: inline-block;
   text-align: center;
   width: 30%;
@@ -46,6 +51,19 @@ nav a{
   box-sizing: border-box;
   border: solid #000000 2px;
   border-radius: 20px;
+}
+
+.produtos li:hover {
+  border-color: #C78C34;
+}
+
+.produtos li:hover h2{
+font-size: 34px;
+
+}
+
+.produtos li:active{
+  border-color: aquamarine;
 }
 
 .produtos h2{
@@ -63,5 +81,20 @@ nav a{
   font-size: 22px;
   font-weight: bold;
   margin-top: 10px;
+}
+
+footer{
+  background: url("imagens/bg.jpg");
+  padding: 40px 0;  
+  text-align: center;
+}
+
+.rodape{
+
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
